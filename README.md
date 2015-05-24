@@ -1,7 +1,7 @@
 # Getting and Cleaning Data Class Project
 
 ##Script Requirements
-This script was writting using the R programming language (version 3.1.2) and  the packages and version numbers below. If you do not have the R programming language installed on your machine it can be downloaded from http://www.r-project.org/.
+This script was written using the R programming language (version 3.1.2) and  the packages and version numbers below. If you do not have the R programming language installed on your machine it can be downloaded from http://www.r-project.org/.
 
 - plyr: 1.8.2
 - dplyr: 0.4.1
@@ -24,4 +24,4 @@ source("run_analysis.R")
 ```
 ** WARNING: Remember to use forward slashes '/' instead of backslashes '\' when using the `setwd` command in Windows **
 ##Output
-After the script has been sucessfully ran there will be an output file named `tidy_data.txt` in the same folder that the `run_analysis.R` file is in.
+After the script has been sucessfully run there will be an output file named `tidy_data.txt` in the same folder that the `run_analysis.R` file is in.

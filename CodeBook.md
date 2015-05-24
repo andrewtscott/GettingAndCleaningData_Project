@@ -5,7 +5,7 @@ More information regarding the source data used in this analysis can be found he
 
 The dataset can be downloaded from here: [ZipFile](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 ##Method
-66 variables were extracted from the 561 variables included in the source data. These variables were chosen because they represent the mean and std of the base measurements produced from that analysis. A complete list of the variables chosen and their mappings to the output data columns can be found in the Extracted Variables section below. For information related to the generation of the source variables please refer to the original codebook file **`UCI HAR Dataset\features_info.txt`** in the source data's zip file above.
+66 variables were extracted from the 561 variables included in the source data. These variables were chosen because they represent the mean and standard deviation of the base measurements produced from that analysis. A complete list of the variables chosen and their mappings to the output data columns can be found in the Extracted Variables section below. For information related to the generation of the source variables please refer to the original codebook file **`UCI HAR Dataset\features_info.txt`** in the source data's zip file above.
 
 The resulting tidy dataset from this analysis is the source data grouped by Subject and Activity being performed. Then the mean is calculated for each of the extracted variables resulting in a single row of information. The long form of data was chosen for the output to allow for easier post-analysis.
 ##Output Columns
